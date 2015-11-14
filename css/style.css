@@ -1,0 +1,84 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: gray;
+}
+
+.header-menu {
+  box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.7);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding-left: 20px;
+  background-color: #CB3E3E;
+  margin: 0;
+  line-height: 5rem;
+}
+
+.header-menu-lib {
+  color: white;
+  display: inline-block;
+}
+
+.header-menu-lib {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.fake-fb {
+  width: 35px;
+  height: 35px;
+  position:absolute;
+  right: 20px;
+  top: 10px;
+  background-image: url(https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11863497_10207393646300208_3253870407385484152_n.jpg?oh=1b903974103d301726411ef41bdd0738&oe=56F09190);
+  background-size: 170%;
+  border-radius: 50%;
+  background-position: -5px;
+}
+
+table {
+  margin-top: 5rem;
+}
+
+tr {
+  height: 100px;
+}
+td.td-lieux-image {
+  padding: 10px !important;
+}
+img.lieux-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+
+.lieux-lib {
+  font-size: 1.6rem;
+  font-weight: bold;
+  height: 60px;
+}
+
+.lieux-dist {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.count-anecdotes {
+  
+}
+
+.dist-hearts button {
+  width: 70px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 10px;
+}
+
+tr:nth-child(odd) {
+  background-color: #DDDDDD !important;
+}
+tr:nth-child(even) {
+  background-color: #CCCCCC;
+}
