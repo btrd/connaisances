@@ -216,3 +216,49 @@ tr:nth-child(odd) {
 tr:nth-child(even) {
   background-color: #CCCCCC;
 }
+
+.pub {
+  background-color: #fff;
+  font-weight: normal;
+  white-space: normal;
+  cursor: pointer;
+  color: #4195D6;
+  border: 1px solid #4195D6;
+  margin:5px;
+  border-radius: 0.25em;
+  text-align:center;
+  height:50px;
+}
+
+.detail-header.eura {
+  background-image: url(../img/eura.jpg);
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+}
+.detail-header-mask {
+  background-color: rgba(0,0,0,0.4);
+  height: 100%;
+  width: 100%;
+  color: white;
+  padding: 30px;
+  box-sizing: border-box;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.detail-header-lib {
+  text-shadow: 0 0 10px rgba(0,0,0, 0.3);
+  text-align: center;
+  line-height: 4rem;
+  margin-top: 30px;
+}
+
+
+.detail-header-tags {
+  font-size: 14px;
+  padding: 20px;
+}
+.detail-header-btn {
+  margin-top: 5rem;
+}
