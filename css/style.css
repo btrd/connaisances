@@ -1,15 +1,15 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: white;
+  background-color: #C8C8C8;
 }
 
 .phone-canvas {
   background-image: url(phone-case.png);
-  background-size: contain;
+  background-size: 400px 800px;
   background-repeat: no-repeat;
   width: 400px;
-  height: 900px;
+  height: 800px;
   position: absolute;
   top: 10px;
   left: 10px;
@@ -19,36 +19,129 @@ body {
   position: absolute;
   top: 100px;
   left: 16px;
-  overflow-y: hidden;
+  overflow: hidden;
   width: 367px;
-  height: 647px;
+  height: 595px;
   background-color: gray;
 }
 
-.main-container {
+
+@-webkit-keyframes slideOut {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@keyframes slideOut {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+
+  to {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+@-webkit-keyframes slideIn {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes slideIn {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.main-container-list {
   position: absolute;
   top: 5rem;
   left: 0;
-  right: 0;
-  bottom: 0;
+  width: 100%;
+  height: 100%;
   overflow-y: auto;
+  z-index: 2;
+}
+
+.main-container-list.slideOut {
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-name: slideOut;
+  animation-name: slideOut;
+}
+
+.main-container-list.slideIn {
+  -webkit-animation-duration: .4s;
+  animation-duration: .4s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  
+  -webkit-animation-name: slideIn;
+  animation-name: slideIn;
+}
+
+
+.main-container-detail {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1;
+  background-color: white;
+}
+
+.back-icon {
+  display: none;
+  float: left;
+  color: white;
+  background-color: rgba(0,0,0,.1);
+  border-radius: 10px;
+  line-height: 14px;
+  padding: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  cursor: pointer;
 }
 
 .header-menu {
-  box-shadow:         0px 0px 10px 0px rgba(50, 50, 50, 0.7);
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.7);
   position: absolute;
   left: 0;
   right: 0;
   top: 0;
-  padding-left: 20px;
   background-color: #CB3E3E;
   margin: 0;
   line-height: 5rem;
+  z-index: 3;
 }
 
 .header-menu-lib {
   color: white;
   display: inline-block;
+  margin-left: 20px;
 }
 
 .header-menu-lib {
@@ -66,6 +159,7 @@ body {
   background-size: 170%;
   border-radius: 50%;
   background-position: -5px;
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.3);
 }
 
 table {
@@ -91,7 +185,7 @@ img.lieux-image {
 .lieux-lib {
   font-size: 1.6rem;
   font-weight: bold;
-  height: 60px;
+  height: 50px;
 }
 
 .lieux-dist {
@@ -99,15 +193,21 @@ img.lieux-image {
   padding-right: 10px;
 }
 
+
 .count-anecdotes {
   
 }
-
+.dist-hearts {
+  padding-top: 14px !important;
+}
 .dist-hearts button {
   width: 70px;
   text-align: center;
   margin-bottom: 10px;
   font-size: 10px;
+}
+.lieux-dist button {
+  margin-bottom: 20px;
 }
 
 tr:nth-child(odd) {
