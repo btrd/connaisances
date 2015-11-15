@@ -11,12 +11,13 @@ body {
 }
 
 .compass {
+  margin-top: 10px;
 	width: 400px;
 	height: 400px;
   opacity: 0.8;
   position: relative;
   margin: 0 auto;
-  zoom:0.4;
+  zoom:0.8;
 }
 
 .compass-inner {
@@ -71,14 +72,14 @@ body {
 
 
 @keyframes spin {
-    0%{
-        transform:scale(1) rotate(0deg);
-    }
+  0%{
+      transform:scale(1) rotate(0deg);
+  }
 	50% {
-		transform:scale(1) rotate(80deg);
+		transform:scale(1) rotate(20deg);
 	}
 	100% {
-		transform:scale(1) rotate(-180deg);
+		transform:scale(1) rotate(-30deg);
 	}
 }
 
@@ -87,10 +88,10 @@ body {
         -webkit-transform:scale(1) rotate(0deg);
     }
 	50% {
-		-webkit-transform:scale(1) rotate(80deg);
+		-webkit-transform:scale(1) rotate(20deg);
 	}
 	100% {
-		-webkit-transform:scale(1) rotate(-180deg);
+		-webkit-transform:scale(1) rotate(-30deg);
 	}
 }
 
@@ -99,10 +100,10 @@ body {
         -webkit-transform:scale(1) rotate(0deg);
     }
 	50% {
-		-webkit-transform:scale(1) rotate(80deg);
+		-webkit-transform:scale(1) rotate(20deg);
 	}
 	100% {
-		-webkit-transform:scale(1) rotate(-180deg);
+		-webkit-transform:scale(1) rotate(-30deg);
 	}
 }
 
@@ -111,18 +112,19 @@ body {
         -webkit-transform:scale(1) rotate(0deg);
     }
 	50% {
-		-webkit-transform:scale(1) rotate(80deg);
+		-webkit-transform:scale(1) rotate(20deg);
 	}
 	100% {
-		-webkit-transform:scale(1) rotate(-180deg);
+		-webkit-transform:scale(1) rotate(-30deg);
 	}
 }
 
 @media (max-width: 600px) {
   .compass {
     width: 200px;
-	height: 200px;
-	text-align: center;
+  	height: 200px;
+  	text-align: center;
+    margin-top: 30px;
   }
 
   .compass-inner {
@@ -130,6 +132,11 @@ body {
 	  height: 170px;
 	  left: 13px;
 	  top: 13px;
+  }
+
+  .compass-metre {
+    position: relative;
+    left: -20px;
   }
 
   .main-arrow {

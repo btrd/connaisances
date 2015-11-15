@@ -184,7 +184,7 @@ img.lieux-image {
 }
 
 .lieux-lib {
-  font-size: 1.9rem;
+  font-size: 1.8rem;
   font-weight: normal;
   height: 50px;
   font-family: 'Oswald', sans-serif;
@@ -192,7 +192,7 @@ img.lieux-image {
 
 
 .count-anecdotes {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -245,13 +245,13 @@ tr:nth-child(even) {
 .detail-header.eura {
   background-image: url(../img/eura.jpg);
   background-size: cover;
-  height: 50%;
+  height: 60%;
   width: 100%;
 }
 .detail-header.omnia {
   background-image: url(../img/omnia.jpg);
   background-size: cover;
-  height: 50%;
+  height: 60%;
   width: 100%;
 }
 .detail-header-mask {
@@ -286,7 +286,7 @@ p{
 
 .detail-header-infos {
   font-size: 1.4rem;
-  margin-top: 60px;
+  margin-top: 20px;
   color: #FF8B8B;
   text-shadow: 0 0 10px rgba(0,0,0, 0.7);
 }
