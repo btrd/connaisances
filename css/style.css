@@ -4,6 +4,8 @@ body {
   background-color: #C8C8C8;
 }
 
+  
+
 .phone-canvas {
   background-image: url(phone-case.png);
   background-size: 400px 800px;
@@ -83,6 +85,18 @@ body {
   background-color: white;
 }
 
+.loading-mask {
+  position: absolute;
+  top: 5rem;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 5rem);
+  overflow-y: auto;
+  z-index: 2;
+  background-color: #BBBBBB;
+  z-index: 3;
+}
+
 .main-container-list.slideOut {
   -webkit-animation-duration: .4s;
   animation-duration: .4s;
@@ -137,7 +151,7 @@ body {
   background-color: #CB3E3E;
   margin: 0;
   line-height: 5rem;
-  z-index: 3;
+  z-index: 4;
 }
 
 .header-menu-lib {
@@ -319,3 +333,37 @@ p{
 .detail-header-infos .btn {
   margin-right: 8px;
 }
+
+
+.loading-mask-cont i {
+  font-size: 6rem;
+  margin-bottom: 30px;
+  margin-top: 15rem;
+}
+.loading-mask-cont {
+  text-align: center;
+  top: 30%;
+  color: black;
+  font-size: 1.8rem;
+  color: #484848;
+}
+
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.loading-mask-cont.fade {
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+ 
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+ 
+  -webkit-animation-duration:.4s;
+  -moz-animation-duration:.4s;
+  animation-duration:.4s;
+}
+
+

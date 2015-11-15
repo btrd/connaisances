@@ -37,6 +37,11 @@ var startCompass = function(elCompass, pts) {
 
 
 $(document.body).ready(function() {
+
+  setTimeout(function() {
+    $('.loading-mask').addClass('fade');
+  }, 1200);
+  
   
 
   $('#index-list tr').on('click', function(e) {
