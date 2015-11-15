@@ -17,7 +17,6 @@ body {
   opacity: 0.8;
   position: relative;
   margin: 0 auto;
-  zoom:0.8;
 }
 
 .compass-inner {
@@ -119,241 +118,78 @@ body {
 	}
 }
 
-@media (max-width: 600px) {
-  .compass {
-    width: 200px;
-  	height: 200px;
-  	text-align: center;
-    margin-top: 30px;
-  }
-
-  .compass-inner {
-	  width: 170px;
-	  height: 170px;
-	  left: 13px;
-	  top: 13px;
-  }
-
-  .compass-metre {
-    position: relative;
-    left: -20px;
-  }
-
-  .main-arrow {
-	width: 30px;
-	left: 78px;
-	width: 15px;
-	padding-top: 3px;
-  }
-
-  .arrow-up {
-	border-bottom: 82.5px solid #EF5052;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
-
-   .arrow-down {
-	border-bottom: 82.5px solid #F3F3F3;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
-
-  .north {
-	  left: 78px;
-	  top: 10px;
-	  font-size: 16px;
-  }
-
-  .south {
-	  font-size: 16px;
-	  left: 78px;
-	  top: 140px;
-  }
-
-  .east {
-	  font-size: 16px;
-	  top: 72.5px;
-	  left: 145px;
-  }
-
-  .west {
-	  font-size: 16px;
-	  left: 10px;
-	  top: 72.5px;
-  }
+.compass {
+  width: 170px;
+	height: 170px;
+	text-align: center;
+  margin-top: 15px;
 }
 
 
-@media (max-width: 600px) {
-  .compass {
-    width: 200px;
-	height: 200px;
-	text-align: center;
-  }
-
-  .compass-inner {
-	  width: 170px;
-	  height: 170px;
-	  left: 13px;
-	  top: 13px;
-  }
-
-  .main-arrow {
-	width: 30px;
-	left: 78px;
-	width: 15px;
-	padding-top: 3px;
-  }
-
-  .arrow-up {
-	border-bottom: 82.5px solid #EF5052;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
-
-   .arrow-down {
-	border-bottom: 82.5px solid #F3F3F3;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
-
-  .north {
-	  left: 78px;
-	  top: 10px;
-	  font-size: 16px;
-  }
-
-  .south {
-	  font-size: 16px;
-	  left: 78px;
-	  top: 140px;
-  }
-
-  .east {
-	  font-size: 16px;
-	  top: 72.5px;
-	  left: 145px;
-  }
-
-  .west {
-	  font-size: 16px;
-	  left: 10px;
-	  top: 72.5px;
-  }
+.compass i {
+  font-size: 10rem;
+  color: #5CFF5C;
+}
+.compass-point {
+  font-size: 4rem;
+  color: #5CFF5C;
 }
 
-@media (max-width: 600px) {
-  .compass {
-    width: 200px;
-	height: 200px;
-	text-align: center;
-  }
-
-  .compass-inner {
-	  width: 170px;
-	  height: 170px;
-	  left: 13px;
-	  top: 13px;
-  }
-
-  .main-arrow {
-	width: 30px;
-	left: 78px;
-	width: 15px;
-	padding-top: 3px;
-  }
-
-  .arrow-up {
-	border-bottom: 82.5px solid #EF5052;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
-
-   .arrow-down {
-	border-bottom: 82.5px solid #F3F3F3;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
-
-  .north {
-	  left: 78px;
-	  top: 10px;
-	  font-size: 16px;
-  }
-
-  .south {
-	  font-size: 16px;
-	  left: 78px;
-	  top: 140px;
-  }
-
-  .east {
-	  font-size: 16px;
-	  top: 72.5px;
-	  left: 145px;
-  }
-
-  .west {
-	  font-size: 16px;
-	  left: 10px;
-	  top: 72.5px;
-  }
+.compass-inner {
+  width: 150px;
+  height: 150px;
+  left: 13px;
+  top: 13px;
 }
 
-@media (max-width: 600px) {
-  .compass {
-    width: 200px;
-	height: 200px;
-	text-align: center;
-  }
+.compass-metre {
+  position: relative;
+  left: -47px; 
+  width: 100px;
+  text-align: center;
+}
 
-  .compass-inner {
-	  width: 170px;
-	  height: 170px;
-	  left: 13px;
-	  top: 13px;
-  }
+.main-arrow {
+width: 30px;
+left: 66px;
+width: 15px;
+padding-top: 3px;
+}
 
-  .main-arrow {
-	width: 30px;
-	left: 78px;
-	width: 15px;
-	padding-top: 3px;
-  }
+.arrow-up {
+border-bottom: 82.5px solid #EF5052;
+border-left: 7.5px solid transparent;
+border-right: 7.5px solid transparent;
+}
 
-  .arrow-up {
-	border-bottom: 82.5px solid #EF5052;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
+ .arrow-down {
+border-bottom: 82.5px solid #F3F3F3;
+border-left: 7.5px solid transparent;
+border-right: 7.5px solid transparent;
+}
 
-   .arrow-down {
-	border-bottom: 82.5px solid #F3F3F3;
-	border-left: 7.5px solid transparent;
-	border-right: 7.5px solid transparent;
-  }
+.north {
+  left: 78px;
+  top: 10px;
+  font-size: 16px;
+}
 
-  .north {
-	  left: 78px;
-	  top: 10px;
-	  font-size: 16px;
-  }
+.south {
+  font-size: 16px;
+  left: 78px;
+  top: 140px;
+}
 
-  .south {
-	  font-size: 16px;
-	  left: 78px;
-	  top: 140px;
-  }
+.east {
+  font-size: 16px;
+  top: 72.5px;
+  left: 145px;
+}
 
-  .east {
-	  font-size: 16px;
-	  top: 72.5px;
-	  left: 145px;
-  }
+.west {
+  font-size: 16px;
+  left: 10px;
+  top: 72.5px;
+}
 
-  .west {
-	  font-size: 16px;
-	  left: 10px;
-	  top: 72.5px;
-  }
 }
