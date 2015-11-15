@@ -156,7 +156,7 @@ body {
   position:absolute;
   right: 20px;
   top: 10px;
-  background-image: url(https://scontent.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11863497_10207393646300208_3253870407385484152_n.jpg?oh=1b903974103d301726411ef41bdd0738&oe=56F09190);
+  background-image: url(../img/facebook.jpg);
   background-size: 170%;
   border-radius: 50%;
   background-position: -5px;
@@ -242,6 +242,12 @@ tr:nth-child(even) {
 
 .detail-header.eura {
   background-image: url(../img/eura.jpg);
+  background-size: cover;
+  height: 50%;
+  width: 100%;
+}
+.detail-header.omnia {
+  background-image: url(../img/omnia.jpg);
   background-size: cover;
   height: 50%;
   width: 100%;
