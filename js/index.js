@@ -6,8 +6,12 @@ getRandomInt = function(min, max) {
 };
 
 var startCompass = function(elCompass, pts) {
+
+  elCompass.empty().append('<div class="compass"><div class="compass-inner"><div class="main-arrow"><div class="arrow-up"></div><div class="compass-metre"></div></div></div></div>');
+
   var m = $(elCompass).find('.compass-metre');
   
+ 
   var count = 10;
   var processFn = function(previousX) {
 
