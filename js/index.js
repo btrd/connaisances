@@ -18,7 +18,8 @@ var startCompass = function(elCompass, pts) {
     if ( previousX == undefined ) {
       previousX = 500;
     }
-    var x = getRandomInt(0, previousX);
+    var minRandom = parseInt(previousX / 2);
+    var x = getRandomInt(minRandom, previousX);
     
     count--;
     if (count == 0 || x == 0 ) {
@@ -27,7 +28,7 @@ var startCompass = function(elCompass, pts) {
       m.empty().append(x+'m');
       setTimeout(function() {
         processFn(x);
-      }, 500);
+      }, 700);
     }
   };
   
