@@ -143,12 +143,15 @@ body {
   color: white;
   display: inline-block;
   margin-left: 20px;
+  font-size: 2rem;
+  font-family: 'Oswald', sans-serif;
 }
 
-.header-menu-lib {
-  font-weight: bold;
-  font-size: 2rem;
+
+.header-menu-lib img {
+  height:40px;
 }
+
 
 .fake-fb {
   width: 35px;
@@ -199,7 +202,7 @@ img.lieux-image {
 .lieux-dist, .lieux-hearts {
   width: 70px;
   text-align: left;
-} 
+}
 .lieux-dist i {
   display: inline-block;
   font-size: 20px;
@@ -229,7 +232,6 @@ tr:nth-child(even) {
 }
 
 .pub {
-  font-weight: bold;
   white-space: normal;
   cursor: pointer;
   color: white;
@@ -240,6 +242,11 @@ tr:nth-child(even) {
 }
 .pub a {
   color: white !important;
+}
+.pub img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
 }
 
 .detail-header.eura {
