@@ -40,6 +40,9 @@ $(document.body).ready(function() {
 
   setTimeout(function() {
     $('.loading-mask').addClass('fade');
+    setTimeout(function() {
+      $('.loading-mask').remove();
+    }, 400);
   }, 1200);
   
   
