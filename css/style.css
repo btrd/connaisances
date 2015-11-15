@@ -87,7 +87,7 @@ body {
   animation-duration: .4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  
+
   -webkit-animation-name: slideOut;
   animation-name: slideOut;
 }
@@ -97,7 +97,7 @@ body {
   animation-duration: .4s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  
+
   -webkit-animation-name: slideIn;
   animation-name: slideIn;
 }
@@ -184,9 +184,10 @@ img.lieux-image {
 }
 
 .lieux-lib {
-  font-size: 1.6rem;
-  font-weight: bold;
+  font-size: 1.9rem;
+  font-weight: normal;
   height: 50px;
+  font-family: 'Oswald', sans-serif;
 }
 
 .lieux-dist {
@@ -196,7 +197,8 @@ img.lieux-image {
 
 
 .count-anecdotes {
-  
+  font-size: 1.5rem;
+  font-family: 'Open Sans', sans-serif;
 }
 .dist-hearts {
   padding-top: 14px !important;
@@ -252,6 +254,12 @@ tr:nth-child(even) {
 .detail-header-lib {
   text-shadow: 0 0 10px rgba(0,0,0, 0.3);
   line-height: 4rem;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
 }
 
 .detail-header-tags {
